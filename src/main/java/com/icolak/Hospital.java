@@ -18,5 +18,9 @@ public class Hospital {
     public void setDistance(Integer[] arr) {
         this.distance = Math.abs(arr[0] - coordinates[0]) + Math.abs(arr[1] - coordinates[1]);
     }
+
+    public int getDistance(Integer[] arr) {
+        return Math.abs(arr[0] - coordinates[0]) + Math.abs(arr[1] - coordinates[1]);
+    }
 }
 
